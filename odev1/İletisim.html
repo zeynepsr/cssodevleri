@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <style>
+         body{
+
+        background-color:bisque;
+        font-family: sans-serif;
+        text-align: center;
+        list-style: inside;
+
+             }
+
+            h1{
+             color:brown;
+             text-align: center;
+             }
+    </style>
+</head>
+
+<body>
+    <a href="Anasayfa.html" target="_blank">Anasayfa</a>
+    <a href="Urunlerimiz.html" target="_blank">Ürünlerimiz</a>
+    <a href="Hakkimizda.html" target="_blank">Hakkımızda</a>
+    <a href="İletisim.html">İletişim</a>
+    
+    <h1>İletişim</h1>
+    <p>Bize ulaşın...</p>
+
+    <div class="container"><!--container(kapsayıcı) sınıfı oluşturuldu-->
+        <form id="contact" action="" method="">
+            <div class="form-control">
+                <input placeholder="Adınız Soyadınız" type="text" required>
+            </div>
+            <div class="form-control">
+                <input placeholder="E-Posta Adresiniz" type="email" required>
+            </div>
+            <div class="form-control">
+                <input placeholder="Konu" type="text" required>
+            </div>
+            <div class="form-control">
+                <textarea placeholder="Lütfen Mesajınızı Buraya Yazın.." required></textarea>
+            </div>
+            <div class="form-control">
+                <button name="submit" type="submit" id="submit">GÖNDER</button>
+            </div>
+        </form>
+    </div>
+    
+<!--
+-html'de form etiketini kullanılarak kullanıcıdan veri alınması sağlanır.
+-input: ile kullanıcı veri girişi yapar.
+-placeholder:giriş alanı için girilmesi gereken kısa ipucunu belirtir.
+-eğer giriş sözelse text şeklinde, email girilecekse text email şeklinde tanımlanır.
+-required:kullanıcı bu alanı boş bırakamaz yani "gerekli" uyarısını almasını sağlar.
+-->
+</body>
+</html>
