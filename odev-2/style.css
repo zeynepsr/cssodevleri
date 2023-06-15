@@ -1,0 +1,48 @@
+body{
+  margin: 15px 90px;
+  
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color:#EEEEEE;
+    
+  }
+
+  .kutu-1{
+    text-align: center;
+    width:40%;
+		height:5em;
+		background-color:#75e2d5;
+    float: left;
+    margin: 1px;
+  }
+
+  .kutu-2{
+    text-align: center;
+    width:18%;
+		height:5em;
+		float:left;
+    background-color: #75e2d5;
+    margin: 1px;
+  }
+
+  .kutu-3{
+    text-align: center;
+    width: 41%;
+		height:5em;
+		float:left;
+    background-color: #70CCC2;
+    margin: 1px;
+  }
+
+  .altkısım{
+    bottom: 0;
+    right: 0;
+    left :0;
+   
+  }
+
+  
