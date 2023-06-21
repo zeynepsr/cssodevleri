@@ -1,0 +1,97 @@
+menu{
+    margin-left: 900px;
+    margin-right: 10px;
+    margin-top: 0;
+    
+}
+
+#btn{
+    float:right;
+    color: aliceblue;
+    background-color: rgb(75, 112, 187);
+
+}
+#app{
+    margin-right: 2%;
+    float: right
+   
+}
+
+#gmail, #gorseller{
+    margin-right: 2%;
+    float: right;
+    padding-top: 10px;
+}
+
+
+
+
+#about, #store{
+    margin-right: 2%;
+    padding-top: 10px;
+   padding: 2px;
+    
+}
+
+
+
+.logo{
+    text-align: center;
+}
+.search-box{
+    text-align: center;
+}
+
+a{
+text-decoration: none;
+    position: relative;
+    color:dimgrey;
+}
+
+.logo{
+    margin-top: 10%;
+    margin-bottom: 2%;
+    
+
+}
+
+input {
+    width: 500px;
+    height: 45px;
+    border-radius: 30px;
+    border-color: rgba(164, 159, 159, 0.333);
+    padding-left: 27px;
+    padding-right: 30px;
+}
+
+button{
+    border-color: rgba(219, 212, 212, 0.026);
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+
+}
+
+
+.footer {
+    margin-top: 11%;
+    border-color: rgba(137, 135, 135, 0.395);
+    background-color: rgba(190, 189, 189, 0.245);
+}
+.alt{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+#Advertising, #Business, #Howsearchworks{
+    padding-right: 10px;
+
+}
+#privacy, #terms, #settings{
+    padding-left: 10px;
+}
+
+#box-2 {
+    width: 200px;
+    margin-left: 700px;
+}
